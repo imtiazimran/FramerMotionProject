@@ -1,4 +1,7 @@
 import Container from "@/components/Container";
+import BatteryReplacement from "@/components/ServiceTiles/BatteryReplacement";
+import CipsetReplacement from "@/components/ServiceTiles/CipsetReplacement";
+import DataRecovery from "@/components/ServiceTiles/DataRecovery";
 
 const ServicesSection = () => {
   return (
@@ -11,9 +14,9 @@ const ServicesSection = () => {
         </p>
       </div>
       <div className="grid grid-cols-12 gap-5">
-        <div className="bg-red-500 h-[415px] rounded-2xl col-span-12"></div>
-        <div className="bg-red-500 h-[415px] rounded-2xl col-span-6 lg:col-span-5"></div>
-        <div className="bg-red-500 h-[415px] rounded-2xl col-span-6 lg:col-span-7"></div>
+       <BatteryReplacement/>
+        <CipsetReplacement/>
+        <DataRecovery/>
         <div className="bg-red-500 h-[415px] rounded-2xl col-span-12"></div>
         <div className="bg-red-500 h-[415px] rounded-2xl col-span-12 lg:col-span-4"></div>
         <div className="bg-red-500 h-[415px] rounded-2xl col-span-12 lg:col-span-4"></div>
